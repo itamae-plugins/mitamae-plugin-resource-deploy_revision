@@ -234,7 +234,7 @@ module ::MItamae
             release_deleted(failed_release)
           end
 
-          raise
+          raise e
         end
 
         def log_prefix
